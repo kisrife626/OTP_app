@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="Classes initiated">
+    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="Empty Lists added">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +30,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kisrife626&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kisrife626/OTP_app&quot;,
+    &quot;accountId&quot;: &quot;47e44ec4-2cec-4ba9-8b29-c316370d1d44&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fYjsJnWGEM5G65Q3eN5EkeCYnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Megoldas",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kisri/OneDrive/Dokumentumok/Egyetem/4. semester/Kooperativ_Feladat&Testek/OTP_app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +82,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713985110999</updated>
-      <workItem from="1713985112059" duration="1855000" />
+      <workItem from="1713985112059" duration="2917000" />
+      <workItem from="1713988130942" duration="8000" />
+      <workItem from="1713988278956" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -85,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713986473700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Empty Lists added">
+      <option name="closed" value="true" />
+      <created>1713987371479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713987371479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Classes initiated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes initiated" />
+    <MESSAGE value="Empty Lists added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empty Lists added" />
   </component>
 </project>
