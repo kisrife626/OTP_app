@@ -10,8 +10,8 @@ public class Main {
         List<Payments> payments = new ArrayList<>();
         List<PaymentsWithCustemerData> pwcd = new ArrayList<>();
 
-        File customerCSVPath = new File("C:\\Users\\kisri\\OneDrive\\Dokumentumok\\Egyetem\\4. semester\\Kooperativ_Feladat&Testek\\OTP_app\\src\\customer1.csv");
-        File paymentsCSVPath = new File("C:\\Users\\kisri\\OneDrive\\Dokumentumok\\Egyetem\\4. semester\\Kooperativ_Feladat&Testek\\OTP_app\\src\\Payment1.csv");
+        File customerCSVPath = new File("customer.csv");
+        File paymentsCSVPath = new File("payments.csv");
 
         FileReader(customers, customerCSVPath, ",");
         FileReader(payments, paymentsCSVPath, ",");

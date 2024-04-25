@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="First 4 task done!">
-      <change afterPath="$PROJECT_DIR$/src/WebshopIncome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="First 5 task done! All task done!">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumAmount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Megoldas",
     "kotlin-language-version-configured": "true",
@@ -89,7 +86,7 @@
       <updated>1713985110999</updated>
       <workItem from="1713985112059" duration="2917000" />
       <workItem from="1713988130942" duration="8000" />
-      <workItem from="1713988278956" duration="28662000" />
+      <workItem from="1713988278956" duration="29306000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -139,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714054253843</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First 5 task done! All task done!">
+      <option name="closed" value="true" />
+      <created>1714060268384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714060268384</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,17 +168,7 @@
     <MESSAGE value="Reader added!" />
     <MESSAGE value="First 3 task done!" />
     <MESSAGE value="First 4 task done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First 4 task done!" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="First 5 task done! All task done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 5 task done! All task done!" />
   </component>
 </project>
