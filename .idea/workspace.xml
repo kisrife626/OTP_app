@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="Reader added!">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaymentsWithCustemerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="First 3 task done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Payments.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,7 @@
       <updated>1713985110999</updated>
       <workItem from="1713985112059" duration="2917000" />
       <workItem from="1713988130942" duration="8000" />
-      <workItem from="1713988278956" duration="21284000" />
+      <workItem from="1713988278956" duration="23309000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -122,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713991728757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First 3 task done!">
+      <option name="closed" value="true" />
+      <created>1714052274327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714052274327</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +147,7 @@
     <MESSAGE value="Classes initiated" />
     <MESSAGE value="Empty Lists added" />
     <MESSAGE value="Reader added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reader added!" />
+    <MESSAGE value="First 3 task done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 3 task done!" />
   </component>
 </project>

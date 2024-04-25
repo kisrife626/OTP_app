@@ -19,15 +19,46 @@ public class Main {
 
         pwcd = Summer(customers, payments);
 
-        var q1 = QuerySumAmountsByCustomer(pwcd);
-
-        System.out.println(q1);
+        List<SumAmount> q1 = QuerySumAmountsByCustomer(pwcd);
 
         FileWriter("src/report01.csv" ,q1, ",");
 
+        List<SumAmount> q2 = MaxTwoSumAmount(q1);
+
+        FileWriter("src/top.csv" ,q2, ",");
 
 
 
+
+    }
+
+    private static List<SumAmount> MaxTwoSumAmount(List<SumAmount> list){
+        List<SumAmount> result = new ArrayList<>();
+
+        int max_element = 2;
+        if(list.size() == 1)
+            return list;
+        if(list.get(0).getAmount() > list.get(1).getAmount()){
+            result.add(list.get(0));
+            result.add(list.get(1));
+        }else{
+            result.add(list.get(1));
+            result.add(list.get(0));
+        }
+
+
+        for(int i = 1; i < list.size(); i++){
+            if(list.get(i).getAmount() > result.get(0).getAmount())
+                result.add(0, list.get(i));
+            else if (list.get(i).getAmount() > result.get(1).getAmount())
+                result.add(1, list.get(i));
+            if(result.size() > max_element){
+                result.remove(max_element);
+            }
+
+
+        }
+        return result;
     }
 
     private static void FileWriter(String filename, List<SumAmount> list, String separator){
