@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="" />
+    <list default="true" id="346a85ab-b78f-4ef9-b914-43e821c5d5ad" name="Changes" comment="First 5 task done! All task done!">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kisrife626&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kisrife626/OTP_app&quot;,
+    &quot;accountId&quot;: &quot;47e44ec4-2cec-4ba9-8b29-c316370d1d44&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fYjsJnWGEM5G65Q3eN5EkeCYnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,9 +55,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Megoldas",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kisri/OneDrive/Dokumentumok/Egyetem/4. semester/Kooperativ_Feladat&Testek/OTP_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,11 +84,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713985110999</updated>
-      <workItem from="1713985112059" duration="2000" />
+      <workItem from="1713985112059" duration="2917000" />
+      <workItem from="1713988130942" duration="8000" />
+      <workItem from="1713988278956" duration="29306000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1713985157983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713985157983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Classes initiated">
+      <option name="closed" value="true" />
+      <created>1713986473700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713986473700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Empty Lists added">
+      <option name="closed" value="true" />
+      <created>1713987371479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713987371479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Reader added!">
+      <option name="closed" value="true" />
+      <created>1713991728757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713991728757</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First 3 task done!">
+      <option name="closed" value="true" />
+      <created>1714052274327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714052274327</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First 4 task done!">
+      <option name="closed" value="true" />
+      <created>1714054253843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714054253843</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First 5 task done! All task done!">
+      <option name="closed" value="true" />
+      <created>1714060268384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714060268384</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Classes initiated" />
+    <MESSAGE value="Empty Lists added" />
+    <MESSAGE value="Reader added!" />
+    <MESSAGE value="First 3 task done!" />
+    <MESSAGE value="First 4 task done!" />
+    <MESSAGE value="First 5 task done! All task done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 5 task done! All task done!" />
   </component>
 </project>
