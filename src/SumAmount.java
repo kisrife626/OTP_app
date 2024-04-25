@@ -21,8 +21,8 @@ public class SumAmount {
         return address;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void addAmount(int amount) {
+        this.amount += amount;
     }
 
     public String toString(String separator) {

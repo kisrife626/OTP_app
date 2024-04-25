@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
 import java.util.*;
 import java.io.*;
 
 public class Main {
-    static ApplicationLogger logger = new ApplicationLogger();
+    private static ApplicationLogger logger = new ApplicationLogger();
 
     public static void main(String[] args)
     {
@@ -21,15 +20,54 @@ public class Main {
 
         List<SumAmount> q1 = QuerySumAmountsByCustomer(pwcd);
 
-        FileWriter("src/report01.csv" ,q1, ",");
+        FileWriterSM("src/report01.csv" ,q1, ",");
 
         List<SumAmount> q2 = MaxTwoSumAmount(q1);
 
-        FileWriter("src/top.csv" ,q2, ",");
+        FileWriterSM("src/top.csv" ,q2, ",");
 
+        List<WebshopIncome> q3 = SumIncomeByWebshop(payments);
 
+        FileWriterWI("src/report02.csv", q3, ",");
 
+    }
 
+    private static List<WebshopIncome> SumIncomeByWebshop(List<Payments> list){
+        List<WebshopIncome> result = new ArrayList<>();
+        for(Payments p : list){
+            if(result.isEmpty()) {
+                if (p.getPaymentType().equals(PaymentType.CARD))
+                    result.add(new WebshopIncome(p.getShopId(), p.getAmount(), 0));
+                else
+                    result.add(new WebshopIncome(p.getShopId(), 0, p.getAmount()));
+            }
+            else{
+                boolean set = false;
+                for (int j = 0; j < result.size(); j++) {
+                    WebshopIncome r = result.get(j);
+                    if (r.getShopId().equals(p.getShopId())) {
+                        switch (p.getPaymentType()) {
+                            case CARD:
+                                r.addCardAmount(p.getAmount());
+                                break;
+                            case TRANSFER:
+                                r.addTransferAmount(p.getAmount());
+                                break;
+                            default:
+                                break;
+                        }
+                        set = !set;
+                    }
+                }
+                if(!set) {
+                    if (p.getPaymentType().equals(PaymentType.CARD))
+                        result.add(new WebshopIncome(p.getShopId(), p.getAmount(), 0));
+                    else
+                        result.add(new WebshopIncome(p.getShopId(), 0, p.getAmount()));
+                }
+            }
+        }
+        return result;
     }
 
     private static List<SumAmount> MaxTwoSumAmount(List<SumAmount> list){
@@ -61,11 +99,29 @@ public class Main {
         return result;
     }
 
-    private static void FileWriter(String filename, List<SumAmount> list, String separator){
+    private static void FileWriterSM(String filename, List<SumAmount> list, String separator){
         String str = null;
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
             for(SumAmount s : list){
+                str = s.toString(separator);
+                writer.write(str);
+                writer.newLine();
+            }
+
+
+            writer.close();
+        } catch (IOException e) {
+            logger.doLog(e, null);
+            throw new RuntimeException(e);
+        }
+    }
+
+    private static void FileWriterWI(String filename, List<WebshopIncome> list, String separator){
+        String str = null;
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+            for(WebshopIncome s : list){
                 str = s.toString(separator);
                 writer.write(str);
                 writer.newLine();
@@ -99,16 +155,18 @@ public class Main {
             if(result.isEmpty()){
                 result.add(new SumAmount(p.getName(), p.getAddress(), p.getAmount()));
             }
-            boolean set = false;
-            for (int j =  0; j < result.size(); j++) {
-                SumAmount r = result.get(j);
-                if (r.getName().equals(p.getName()) && r.getAddress().equals(p.getAddress())) {
-                    r.setAmount(r.getAmount() + p.getAmount());
-                    set = !set;
+            else {
+                boolean set = false;
+                for (int j = 0; j < result.size(); j++) {
+                    SumAmount r = result.get(j);
+                    if (r.getName().equals(p.getName()) && r.getAddress().equals(p.getAddress())) {
+                        r.addAmount(p.getAmount());
+                        set = !set;
+                    }
                 }
+                if (!set)
+                    result.add(new SumAmount(p.getName(), p.getAddress(), p.getAmount()));
             }
-            if(!set)
-                result.add(new SumAmount(p.getName(), p.getAddress(), p.getAmount()));
         }
 
         return result;
