@@ -28,3 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 /src/customer1.csv
+/src/Payment1.csv
+/src/application.log
+/src/report01.csv
